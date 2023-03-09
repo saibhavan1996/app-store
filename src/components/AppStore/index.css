@@ -1,0 +1,59 @@
+.app-store-bg-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.heading-section {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 38px;
+  color: #1e293b;
+  font-weight: 600;
+  font-family: 'Bree Serif';
+}
+.search-bar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 45px;
+  width: 220px;
+  border-color: #7b8794;
+  border-radius: 5px;
+  align-items: center;
+  border-width: 2px;
+  border-style: solid;
+  margin-left: -25px;
+}
+.search-bar {
+  border-style: none;
+  background-color: transparent;
+  height: 45px;
+  width: 190px;
+  outline: none;
+  font-size: 14px;
+  padding-left: 15px;
+}
+.search-icon {
+  height: 35px;
+  width: 30px;
+}
+.tabs-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  margin-left: -25px;
+}
+.app-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}

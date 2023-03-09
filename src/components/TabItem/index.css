@@ -1,0 +1,27 @@
+.tab-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: 10px;
+}
+.active-btn {
+  text-decoration: underline;
+  color: #2563eb;
+  text-decoration-color: #2563eb;
+  font-size: 20px;
+  font-weight: 600;
+  border-style: none;
+  margin-right: 10px;
+  font-family: 'Bree Serif';
+  background-color: transparent;
+}
+.normal-btn {
+  color: #7b8794;
+  font-size: 18px;
+  font-weight: 600;
+  border-style: none;
+  margin: 10px;
+  font-family: 'Bree Serif';
+  background-color: transparent;
+}
